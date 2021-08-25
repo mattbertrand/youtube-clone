@@ -22,9 +22,9 @@ function Header() {
                 <SearchIcon className="header__inputButton"/>
             </div>
             <div className="header__icons">
-                <VideoCallIcon />
-                <AppsIcon />
-                <NotificationsIcon />
+                <VideoCallIcon classname="header__icon"/>
+                <AppsIcon classname="header__icon"/>
+                <NotificationsIcon classname="header__icon"/>
                 <Avatar
                     alt="Matthieu Bertrand"
                     src="https://scontent.fcdg4-1.fna.fbcdn.net/v/t1.6435-9/38144352_10156663207947360_8248451771043676160_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=em4H9GrpVGAAX-lzD8T&_nc_ht=scontent.fcdg4-1.fna&oh=7c41770f2ecf59eebc82a10832bea239&oe=6149EE4B"
