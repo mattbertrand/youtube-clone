@@ -8,8 +8,8 @@ function ChannelRow({ image, channel, verified, subs, noOfVideos, description })
         <div className="channelRow">
             <Avatar
             className="channelRow__logo" 
-            src={channel}
-            alt={image}
+            src={image}
+            alt={channel}
             />
             <div className="channelRow__text">
                 <h4>{channel} {verified && <VerifiedIcon/>}</h4>
