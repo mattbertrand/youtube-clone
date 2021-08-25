@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/SearchPage.css';
 import TuneOutLinedIcon from '@material-ui/icons/TuneOutlined';
 import ChannelRow from './ChannelRow';
+import VideoRow from './VideoRow';
 
 function SearchPage() {
     return (
@@ -21,7 +22,34 @@ function SearchPage() {
                 description="Software Engineer with React, Javascript, learning how to build amazing apps"
             />
             <hr />
-            
+
+            <VideoRow 
+            views="1.4M"
+            subs="629K"
+            description="Do you want a great developper in your company?"
+            timestamp="1 week ago"
+            channel="Matt Bertrand"
+            title="Let's build a Facebook Clone!"
+            image="https://upload.wikimedia.org/wikipedia/commons/1/13/YOUTUBE_LOGO.png"
+            />
+            <VideoRow 
+            views="600,525"
+            subs="629K"
+            description="Do you want a great developper in your company?"
+            timestamp="10 minutes ago"
+            channel="Matt Bertrand"
+            title="Let's build a Tinder Clone!"
+            image="https://upload.wikimedia.org/wikipedia/commons/5/5f/Tinder.png"
+            />
+            <VideoRow 
+            views="747,135"
+            subs="629K"
+            description="Do you want a great developper in your company?"
+            timestamp="2 days ago"
+            channel="Matt Bertrand"
+            title="Let's build a Youtube Clone!"
+            image="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Facebook_New_Logo_%282015%29.svg/640px-Facebook_New_Logo_%282015%29.svg.png"
+            />
         </div>
     )
 }
